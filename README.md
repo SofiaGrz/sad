@@ -17,9 +17,9 @@ Incluye un pipeline completo de:
 # ⚙️ Requisitos
 
 Instalar dependencias:
-(Opcional pero recomendado) Crear entorno virtual
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+- Crear entorno virtual
+- python -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
 
 
