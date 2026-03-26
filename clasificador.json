@@ -1,0 +1,27 @@
+{
+  "preprocessing": {
+    "missing_values": "mean",
+    "scaler": "standard",
+    "text_process": "tf-idf",
+    "sampling": "none",
+    "unique_category_threshold": 20,
+    "test_size": 0.2,
+    "drop_features": []
+  },
+
+  "kNN": {
+    "n_neighbors": [3, 5, 7],
+    "weights": ["uniform", "distance"],
+    "metric": ["euclidean", "manhattan"]
+  },
+
+  "decision_tree": {
+    "max_depth": [5, 10, null],
+    "criterion": ["gini", "entropy"]
+  },
+
+  "random_forest": {
+    "n_estimators": [50, 100],
+    "max_depth": [5, null]
+  }
+}
